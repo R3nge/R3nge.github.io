@@ -1,0 +1,116 @@
+
+  :host {
+    background-size: cover;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(45deg, #020202,#003B00,#008F11,#00e239,#008F11,#003B00,#020202);
+    background-size: 500% 100%;
+    animation: degrade 5s infinite alternate;
+  }
+
+  @keyframes degrade{
+   
+    
+    50%{
+      background-position-x: 50%;
+
+    }
+    
+    
+    100%{
+      background-position-x: 100%;
+
+    }
+  }
+
+  
+  h6 {
+    font-size: 6rem;
+  }
+  
+  h6::before {
+    background-color: transparent;
+    content: "<";
+    font-size: 6rem;
+    font-weight: 700;
+    color: #00e239;
+  }
+  
+  h6::after {
+    background-color: transparent;
+    content: "/>";
+    font-size: 6rem;
+    font-weight: 700;
+    color: #00e239;
+
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .title {
+    font-size: 8rem;
+    padding: 0 0 2rem;
+    text-align: center;
+    font-style: italic;
+    color: #E5E5E5;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    
+  }
+  
+  .name {
+    grid-row: 2/4;
+    padding: 2rem;
+    color: #E5E5E5;
+    font-size: 2rem;
+    margin-top: 3rem;
+    outline: 1px solid #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    
+  }
+  
+  .name span:nth-of-type(1) {
+    font-size: 3rem;
+    color: var(--blue);
+  }
+  
+  .name span:nth-of-type(2) {
+    display: inline-block;
+    color: #E5E5E5;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px 0;
+    letter-spacing: 8px;
+    text-shadow: 10px 8px 10px #000000;
+  }
+  
+
+/* PC */
+
+:host.pc {
+    padding: 4rem 2rem 10rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+    
+}
+
+:host.pc .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+}
+
+:host.pc .title {
+    grid-column: 2/2;
+    padding: 0%;
+    margin: auto;
+    font-size: 5rem;
+    font-style: italic;
+    text-decoration: none;
+
+}

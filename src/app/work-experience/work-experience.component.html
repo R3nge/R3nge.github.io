@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Experiência de Trabalho</h1>
+
+    <ul>
+        <li *ngFor="let workexp of workExpList">
+            <h2>{{workexp.role}}</h2>
+            <h3>{{workexp.company}}</h3>
+            <h4>{{workexp.duration}}</h4>
+            <ul>
+                <li *ngFor="let desc of workexp.description">{{desc}}</li>
+            </ul>
+            
+        </li>
+    </ul>
+    <br>
+    <h2>Certificações:</h2>
+    <a href="https://drive.google.com/drive/folders/1BSzHrre1IYD6S_m60KF3Hp9qcY-_tx0S?usp=drive_link">
+        <i class='bx bxl-google-cloud'><h2> Clique Aqui !</h2></i></a>
+</div>
