@@ -9,10 +9,10 @@ import { Education } from '../models/models';
 export class EducationComponent implements OnInit {
   educationList: Education[] = [
     {
-      institute: "IFSEMG Sudeste Minas Gerais",
-      course: 'Técnico Em Informática',
-      duration: '2019 - 2023',
-      score: '*Teste de Software *WordPress *Montagem/Manutenção *Banco de Dados *Desenvolvimento Web *Redes ',
+      institute: "IFSEMG Campus Rio Pomba ",
+      course: 'Técnico em Informática',
+      duration: '3 Anos',
+      score: '* Teste de Software *PHP *Linux *Wordpress *Redes ',
     },
     {
       institute: "DIO ",
@@ -28,9 +28,9 @@ export class EducationComponent implements OnInit {
     },
     {
       institute: "DIO ",
-      course: 'Santander Bootcamp 2023 - Ciência de Dados com Python',
+      course: 'Santander Bootcamp 2023 - Fullstack Java+Angular',
       duration: 'Em conclusão',
-      score: '*Python *Power BI *SQL/NOSQL *Machine Learning ',
+      score: '*Java *Angular *SQL/NOSQL *Machine Learning *Spring Boot',
 
     },
     

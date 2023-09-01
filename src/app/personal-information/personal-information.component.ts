@@ -9,7 +9,7 @@ export class PersonalInformationComponent implements OnInit {
   myData: string[][] = [
     ['Nome', 'Rodrigo Gomes Malaquias'],
     ['Experiência', 'Desenvolvimento PHP'],
-    ['Educação', 'Ensino Técnico'],
+    ['Educação', 'Técnico em Informática (IFSEMG Rio Pomba/MG)'],
     ['Interesses', 'Estágio/PJ'],
   ];
 

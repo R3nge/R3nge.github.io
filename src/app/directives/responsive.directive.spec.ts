@@ -4,7 +4,7 @@ import { ElementRef, Component } from '@angular/core';
 import { ResponsiveDirective } from './responsive.directive';
 
 @Component({
-  template: '<div responsive></div>',
+  template: '<div responsive></div>'
 })
 class TestComponent {}
 
@@ -28,6 +28,4 @@ describe('ResponsiveDirective', () => {
     const directive = new ResponsiveDirective(elementRef, breakpointObserver);
     expect(directive).toBeTruthy();
   });
-
-  // Add more test cases as needed to verify the behavior of your directive
 });

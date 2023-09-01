@@ -1,12 +1,13 @@
 :host {
     display: block;
     color: white;
-    padding: 2rem 3rem;
+    padding: 3rem 2rem;
 
 }
 
 section {
     margin-top: 2rem;
+
 }
 
 section h2 {
@@ -26,7 +27,7 @@ section ul {
 /* PC */
 
 :host.pc section {
-     width: 600px;
+    width: flex;
     position: relative;
     margin-left: 5rem;
 

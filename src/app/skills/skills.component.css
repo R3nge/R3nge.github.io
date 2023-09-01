@@ -54,7 +54,6 @@ section .rating .bar div {
 
 /* PC */
 :host.pc .container {
-    width: 600px;
     position: relative;
     margin-left: 5rem;
 }

@@ -9,7 +9,10 @@
 * {
     margin: 0%;
     box-sizing: border-box;
-   
+    max-width: auto;
+    max-height: auto;
+    background-color: #020202;
+
 }
 
 body {
@@ -21,7 +24,6 @@ body {
 .container {
 
     margin: 0 auto;
-    max-width: 1500px;
     outline: 0px solid rgb(255, 255, 255);
     
 }
@@ -33,5 +35,14 @@ h1 {
     color: var(--green);
     outline: 1px solid #00e239;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
+h8 {
+    padding:  0;
+    text-align: center;
+    color: #00e239;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
 
